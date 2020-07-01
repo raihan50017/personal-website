@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 750px;
+    padding-top: 100px;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padding-top-60{
+    padding-top: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    color: dimgray;
+}
+.name-heighlight{
+    color: #EC4C7A;
+    font-weight: 900;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    max-width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    padding: 16px 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,#EC5093,#ED4B73);
+    margin-top: 50px;
+    display: inline-block;
+}
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.text-center{
+   text-align: center;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.work-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+.work-inner{
+    margin: 0px -16px;
+}
+.one-third-width img{
+    max-width: 100%;
+}
+.one-third-width{
+    width: 33.33%;
+    float: left;
+}
+.single-work{
+    margin: 16px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.4);
+} 
+.contact-area{
+    background-image: url(images/contact-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 490px;
+    position: relative;
+}
+.contact-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.contact-form{
+    background-color: white;
+    position: relative;
+    z-index:9;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-family: "Work Sans",sans-serif;
+}
+.contact-form .form-control{
+    display: block;
+    border: none;
+    border-bottom: 1px solid dimgray;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 13px;
+    font-size: 17px;
+    outline: none;
+}
+.submit-btn{
+    border: none;
+    background-color: #4caf50;
+    padding: 14px 28px;
+    color: white;
+    font-size: 16px;
+    border-radius: 28px;
+    opacity: .9;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.submit-btn:hover{
+    opacity: 1;
+}
+.footer-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.footer-area .link-btn{
+    padding: 18px 120px;
+    border-radius: 8px;
+}
+.footer-area p,.footer-area h5{
+    font-family: 'Work Sans', sans-serif;
+}
